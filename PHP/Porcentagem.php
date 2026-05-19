@@ -6,11 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-<!--receba e calcule 15% do valor digitado pelo usuario, -->
+<!--receba e calcule 15% do valor digitado pelo usuario, 
+
+seu nome <label for"nome">Nome:</label><br>
+<input type="text" id="nome" name="nome" required><br><br>
+ -->
 <form action ="acao.php" method="post">
-<seu 
+ Digite o valor do primeiro numero <label for"n1">Numero1 : </label><br>
+<input type="text" id="n1" name="numero1" required><br><br>
 
 
+
+    
 </form>
 
 
