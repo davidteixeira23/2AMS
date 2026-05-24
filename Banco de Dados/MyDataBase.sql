@@ -12,6 +12,6 @@ login varchar (15) not null unique,
 senha varchar (15) not null
 );
 
--- rexderwxwexw3essedxds
+-- rexderwxwexw3essedxdsewx
 -- o comando abaixo descreve a tabela 
 describe tbusuarios;
