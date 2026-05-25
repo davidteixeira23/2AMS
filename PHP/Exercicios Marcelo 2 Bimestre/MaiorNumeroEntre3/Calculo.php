@@ -28,7 +28,7 @@
         echo "O numero 3 é maior que o numero 2 que é maior que o numero 1";
     }
 
-        12345
+        123456
 
 
     ?>
