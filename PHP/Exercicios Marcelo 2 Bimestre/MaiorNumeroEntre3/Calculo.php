@@ -13,7 +13,7 @@
     $n1 = $_POST['n1'];
     $n2 = $_POST['n2'];
     $n3 = $_POST['n3'];
-
+bnn
     if ($n1 > $n2 || $n2 > $n3) {
         echo "O numero 1 é maior que numero 2 que é maior que numero 3";
     } else if ($n1 > $n3 || $n3 > $n2) {
