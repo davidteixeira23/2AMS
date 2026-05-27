@@ -3,7 +3,7 @@
 <head>
 	<title> Exemplo de funcionamento do PHP </title>
 </head>
-s
+
 <body>
 	<?php
 	echo "David Pedreira de Souza Teixeira";
