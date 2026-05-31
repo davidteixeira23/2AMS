@@ -13,17 +13,12 @@
 
     $n1 = $_POST['n1'];
 
-
-    function verificarPar($n1)
-    {
-        if ($n1 % 2 == 0) {
-            return "par";
-        } else {
-            return "impar";
-        }
+    if ($n1 % 2 == 0) {
+        echo "o numero é par";
+    } else {
+        echo "O numero é impar";
     }
 
-    echo "o número" . $n1 . "é" . verificarPar($n1);
 
     ?>
 
