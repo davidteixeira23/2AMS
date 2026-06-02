@@ -11,6 +11,6 @@ fone varchar (15),
 login varchar (15) not null unique,
 senha varchar (15) not null
 );
-
+risfvce
 -- o comando abaixo descreve a tabela 
 describe tbusuarios;
