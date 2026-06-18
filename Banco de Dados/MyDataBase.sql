@@ -2,7 +2,7 @@
 create database dbinfox;
 -- a linha abaixo escolhe o banco de dados
 use dbinfox;
-
+erfer
 -- o bloco abaixo criar uma tabela
 -- toda tabela precisa ter uma chave primaria
 create table tbusuarios(
