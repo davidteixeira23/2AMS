@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-vgg
+
 <body>
     <?php
     $var1 = 1; // variavel do tipo inteiro (fica armazenada na memoria volatil)
