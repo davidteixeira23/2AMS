@@ -16,31 +16,31 @@
     $varSTR = "Valor em String"; // variavel do tipo string (texto)
     $varbool = true; // variavel do tipo boolean, atribuição lógica(verdadeiro ou falso);
 
-    echo "Exemplo de uma aplicação em php";
-    print "<P>";
+  
+echo "Exemplo de uma aplicação em PHP";
+print "<p>";
 
-    echo "Conteúdo da variável varX;";
-    echo $varX;
-    print "<P>";
+echo "Conteúdo da variável varX: ";
+echo $varX;
+print "<p>";
 
-    echo "Conteúdo da variável varY;";
-    echo $varY;
-    print "<P>";
+echo "Conteúdo da variável varY: ";
+echo $varY;
+print "<p>";
 
-    echo "Conteúdo da variável var2;";
-    echo $var2;
-    print "<P>";
+echo "Conteúdo da variável var2: ";
+echo $var2;
+print "<p>";
 
-    echo "Conteúdo da variável varSTR;";
-    echo $varSTR;
-    print "<P>";
+echo "Conteúdo da variável varSTR: ";
+echo $varSTR;
+print "<p>";
 
-    echo "Conteúdo da variável varbool;";
-    echo $varbool;
-    print "<P>";
+echo "Conteúdo da variável varBool: ";
+echo $varBool ? "true" : "false";
+print "<p>";
 
-    ?>
-
+?>
 
 
 
