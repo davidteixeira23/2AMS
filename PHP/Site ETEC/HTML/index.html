@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale com a gente</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <p class="eyebrow">Contato</p>
+        <h1>Fale com a gente</h1>
+        <p class="sub">Preencha os campos abaixo. Validamos tudo antes de enviar, então qualquer erro aparece na hora.
+        </p>
+
+        <div class="success-banner" id="successBanner">✓ Formulário válido! Os dados estão prontos para envio.</div>
+
+        <form id="contactForm" novalidate>
+
+            <div class="field" id="field-nome">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex: Maria Silva Souza">
+                <span class="error-msg" id="error-nome"></span>
+            </div>
+
+            <div class="field" id="field-email">
+                <label for="email">E-mail (Gmail)</label>
+                <input type="text" id="email" name="email" placeholder="seuemail@gmail.com">
+                <span class="hint">Precisa ser um endereço @gmail.com</span>
+                <span class="error-msg" id="error-email"></span>
+            </div>
+
+            <div class="field" id="field-telefone">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" placeholder="(11) 91234-5678" maxlength="15">
+                <span class="error-msg" id="error-telefone"></span>
+            </div>
+
+            <div class="field" id="field-assunto">
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="assunto">
+                    <option value="">Selecione um assunto</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <span class="error-msg" id="error-assunto"></span>
+            </div>
+
+            <div class="field" id="field-mensagem">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+                <div class="char-count" id="charCount">0/500</div>
+                <span class="error-msg" id="error-mensagem"></span>
+            </div>
+
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </div>
+
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
