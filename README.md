@@ -2,7 +2,7 @@
 ff
 Seja bem-vindo(a) ao meu repositório de estudos! Aqui eu centralizo e organizo todos os códigos, projetos, exercícios práticos e simulações desenvolvidos durante o meu segundo ano, com foco em desenvolvimento de software, banco de dados e eletrônica.
 
----
+----
 
 ## 🛠️ Tecnologias e Linguagens Utilizadas
 
