@@ -9,29 +9,35 @@
 
 <body>
 
-    <?php
-    $n1 = $_POST['n1'];
-    $n2 = $_POST['n2'];
-    $n3 = $_POST['n3'];
+   <?php
 
-    if ($n1 > $n2 || $n2 > $n3) {
-        echo "O numero 1 é maior que numero 2 que é maior que numero 3";
-    } else if ($n1 > $n3 || $n3 > $n2) {
-        echo "O numero 1 é maior que o numero 3 que é maior que o numero 2";
-    } else if ($n2 > $n1 || $n1 > $n3) {
-        echo "O numero 2 é maior que o numero1 que é maior que o numero 3";
-    } else if ($n2 > $n3 || $n3 > $n1) {
-        echo "O numero 2 é maior que o numero 3 que é maior que o numero2";
-    } else if ($n3 > $n2 || $n2 > $n1) {
-        echo "O numero 3 é maior que o numero 2 que é maior que o numero3";
-    } else if ($n3 > $n2 || $n2 > $n1) {
-        echo "O numero 3 é maior que o numero 2 que é maior que o numero 1";
-    }
+$n1 = $_POST['n1'];
+$n2 = $_POST['n2'];
+$n3 = $_POST['n3'];
 
-        1234567
+if ($n1 > $n2 && $n2 > $n3) {
+    echo "$n1 > $n2 > $n3";
+}
+else if ($n1 > $n3 && $n3 > $n2) {
+    echo "$n1 > $n3 > $n2";
+}
+else if ($n2 > $n1 && $n1 > $n3) {
+    echo "$n2 > $n1 > $n3";
+}
+else if ($n2 > $n3 && $n3 > $n1) {
+    echo "$n2 > $n3 > $n1";
+}
+else if ($n3 > $n1 && $n1 > $n2) {
+    echo "$n3 > $n1 > $n2";
+}
+else if ($n3 > $n2 && $n2 > $n1) {
+    echo "$n3 > $n2 > $n1";
+}
+else {
+    echo "Existem números iguais.";
+}
 
-
-    ?>
+?>
 
 
 
